@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Account — SwipeFlipper</title>
+    <style>
+        :root {
+            --primary: #2ECC71;
+            --primary-dark: #27AE60;
+            --dark: #1A1A2E;
+            --text: #2C3E50;
+            --bg: #F9FAFB;
+            --card: #FFFFFF;
+            --border: #E5E7EB;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+        }
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 48px 24px;
+            text-align: center;
+        }
+        header h1 { font-size: 2rem; font-weight: 800; margin-bottom: 8px; }
+        header p { font-size: 0.95rem; opacity: 0.95; }
+        .container { max-width: 720px; margin: -32px auto 64px; padding: 0 24px; }
+        .card {
+            background: var(--card);
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+            border: 1px solid var(--border);
+        }
+        h2 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--dark);
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
+        h2:first-of-type { margin-top: 0; }
+        p { margin-bottom: 12px; }
+        ol, ul { margin: 12px 0 16px 24px; }
+        li { margin-bottom: 8px; }
+        a {
+            color: var(--primary-dark);
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 1px solid rgba(46,204,113,0.3);
+        }
+        a:hover { color: var(--primary); }
+        .steps {
+            background: var(--bg);
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 4px solid var(--primary);
+            margin: 16px 0;
+        }
+        .email-box {
+            display: inline-block;
+            background: var(--dark);
+            color: white;
+            padding: 10px 16px;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 0.95rem;
+            margin: 8px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 32px 24px;
+            color: #6B7280;
+            font-size: 0.85rem;
+        }
+        @media (max-width: 600px) {
+            header { padding: 32px 16px; }
+            header h1 { font-size: 1.5rem; }
+            .card { padding: 28px 20px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SwipeFlipper</h1>
+        <p>Delete Your Account</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>How to delete your SwipeFlipper account</h2>
+            <p>You can request deletion of your SwipeFlipper account and all associated data at any time.</p>
+
+            <div class="steps">
+                <ol>
+                    <li>Send an email to: <br><span class="email-box">admin@getcharityswipe.com</span></li>
+                    <li>Use the subject line: <strong>"Delete my SwipeFlipper account"</strong></li>
+                    <li>Send the email from the address associated with your SwipeFlipper account (or include it in the body)</li>
+                    <li>We will confirm receipt within 3 working days</li>
+                    <li>Your account and data will be deleted within <strong>30 days</strong></li>
+                </ol>
+            </div>
+
+            <h2>What data will be deleted</h2>
+            <ul>
+                <li>Your email address and account credentials</li>
+                <li>Your display name (if you provided one)</li>
+                <li>All scanned items and their details</li>
+                <li>All photos associated with your scans</li>
+                <li>Your listings (Drafts, Listed, Sold)</li>
+                <li>Your profit tracking history</li>
+                <li>All other data associated with your account</li>
+            </ul>
+
+            <h2>What data may be retained</h2>
+            <p>In limited circumstances, we may retain some data for legal or compliance reasons:</p>
+            <ul>
+                <li><strong>Anonymised data:</strong> Aggregated statistics that no longer identify you may be retained indefinitely</li>
+                <li><strong>Legal obligations:</strong> Data required to be retained by law (e.g., tax records if applicable)</li>
+                <li><strong>Fraud prevention:</strong> Data needed to prevent fraud or abuse</li>
+            </ul>
+
+            <h2>Questions?</h2>
+            <p>If you have any questions about deleting your account or data, please contact us at <a href="mailto:admin@getcharityswipe.com">admin@getcharityswipe.com</a>.</p>
+
+            <h2>Privacy Policy</h2>
+            <p>For more information about how we handle your data, see our <a href="index.html">Privacy Policy</a>.</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 SwipeFlipper. All rights reserved.
+    </footer>
+</body>
+</html>
