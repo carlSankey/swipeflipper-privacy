@@ -1,293 +1,114 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-GB">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy — SwipeFlipper</title>
-    <meta name="description" content="Privacy Policy for the SwipeFlipper mobile app.">
-    <style>
-        :root {
-            --primary: #2ECC71;
-            --primary-dark: #27AE60;
-            --dark: #1A1A2E;
-            --text: #2C3E50;
-            --light-text: #6B7280;
-            --bg: #F9FAFB;
-            --card: #FFFFFF;
-            --border: #E5E7EB;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            line-height: 1.7;
-            font-size: 16px;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        header {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-            color: white;
-            padding: 48px 24px;
-            text-align: center;
-            box-shadow: 0 4px 12px rgba(46, 204, 113, 0.2);
-        }
-
-        header h1 {
-            font-size: 2rem;
-            font-weight: 800;
-            letter-spacing: -0.5px;
-            margin-bottom: 8px;
-        }
-
-        header p {
-            font-size: 0.95rem;
-            opacity: 0.95;
-            font-weight: 500;
-        }
-
-        .container {
-            max-width: 780px;
-            margin: -32px auto 64px;
-            padding: 0 24px;
-        }
-
-        .card {
-            background: var(--card);
-            border-radius: 16px;
-            padding: 48px 40px;
-            box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
-            border: 1px solid var(--border);
-        }
-
-        .updated {
-            display: inline-block;
-            background: rgba(46, 204, 113, 0.1);
-            color: var(--primary-dark);
-            padding: 6px 14px;
-            border-radius: 999px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            margin-bottom: 32px;
-        }
-
-        h2 {
-            font-size: 1.25rem;
-            font-weight: 700;
-            color: var(--dark);
-            margin-top: 40px;
-            margin-bottom: 16px;
-            padding-bottom: 8px;
-            border-bottom: 2px solid rgba(46, 204, 113, 0.15);
-        }
-
-        h2:first-of-type {
-            margin-top: 0;
-        }
-
-        h3 {
-            font-size: 1rem;
-            font-weight: 700;
-            color: var(--dark);
-            margin-top: 20px;
-            margin-bottom: 8px;
-        }
-
-        p {
-            margin-bottom: 12px;
-            color: var(--text);
-        }
-
-        ul {
-            margin: 12px 0 16px 20px;
-        }
-
-        li {
-            margin-bottom: 6px;
-            color: var(--text);
-        }
-
-        a {
-            color: var(--primary-dark);
-            text-decoration: none;
-            font-weight: 600;
-            border-bottom: 1px solid rgba(46, 204, 113, 0.3);
-            transition: all 0.15s ease;
-        }
-
-        a:hover {
-            color: var(--primary);
-            border-bottom-color: var(--primary);
-        }
-
-        .service-link {
-            display: block;
-            background: var(--bg);
-            padding: 12px 16px;
-            border-radius: 8px;
-            margin-bottom: 8px;
-            border-left: 3px solid var(--primary);
-            font-size: 0.95rem;
-        }
-
-        .service-link a {
-            border-bottom: none;
-        }
-
-        footer {
-            text-align: center;
-            padding: 32px 24px;
-            color: var(--light-text);
-            font-size: 0.85rem;
-        }
-
-        footer a {
-            color: var(--primary-dark);
-        }
-
-        @media (max-width: 600px) {
-            header {
-                padding: 32px 16px;
-            }
-            header h1 {
-                font-size: 1.5rem;
-            }
-            .card {
-                padding: 32px 24px;
-            }
-            h2 {
-                font-size: 1.1rem;
-            }
-        }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — SwipeFlipper</title>
+<style>
+  :root { --ink:#1f2933; --muted:#52606d; --accent:#2b6cb0; --bg:#ffffff; --panel:#f5f7fa; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color:var(--ink); background:var(--bg); }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  header { border-bottom:1px solid #e4e7eb; margin-bottom:24px; padding-bottom:16px; }
+  .brand { font-weight:700; color:var(--accent); letter-spacing:.02em; }
+  h1 { margin:.2em 0; font-size:1.9rem; }
+  h2 { margin-top:2em; font-size:1.25rem; }
+  h3 { margin-bottom:.2em; font-size:1.05rem; }
+  .badge { display:inline-block; background:var(--panel); color:var(--muted); border-radius:999px; padding:2px 12px; font-size:.85rem; }
+  .note { background:var(--panel); border-left:4px solid var(--accent); padding:12px 16px; border-radius:4px; }
+  a { color:var(--accent); }
+  footer { margin-top:48px; color:var(--muted); font-size:.85rem; border-top:1px solid #e4e7eb; padding-top:16px; }
+</style>
 </head>
 <body>
-    <header>
-        <h1>SwipeFlipper</h1>
-        <p>Privacy Policy</p>
-    </header>
+<main>
+<header>
+  <div class="brand">SwipeFlipper</div>
+  <h1>Privacy Policy</h1>
+  <span class="badge">Last updated: 9 November 2026</span>
+</header>
 
-    <div class="container">
-        <div class="card">
-            <span class="updated">Last updated: 15 September 2026</span>
+<p>This policy explains what personal data the SwipeFlipper mobile app ("SwipeFlipper", "we", "us") collects, why, who it is shared with, and the choices you have.</p>
 
-            <p>This Privacy Policy applies to the SwipeFlipper mobile application ("the App"), operated by SwipeFlipper ("we", "us", "our"). By using the App, you agree to the collection and use of information in accordance with this policy.</p>
+<div class="note">
+  <strong>In short:</strong> we collect your email, display name and the items you scan so the app can work. Location is optional. Photos are sent to OpenAI only to identify items and are <strong>not</strong> stored on our servers. We never sell your data. You can delete your account and all its data in the app at any time.
+</div>
 
-            <h2>1. Information We Collect</h2>
+<h2>1. Information we collect</h2>
 
-            <h3>Account Information</h3>
-            <ul>
-                <li>Email address (when you sign up)</li>
-                <li>Display name (if you provide one)</li>
-            </ul>
+<h3>Account information</h3>
+<p>Your email address and the display name you choose when you sign up. Used to create and secure your account.</p>
 
-            <h3>Photos and Images</h3>
-            <ul>
-                <li>When you use the scanning feature, photos you take are sent to our AI partner (OpenAI) to identify items and estimate resale values</li>
-                <li>Photos may be stored with your scan history</li>
-            </ul>
+<h3>Scan data</h3>
+<p>Details of the items you scan: title, category, estimated value, purchase and listing prices, status (Scanned, Selected, Rejected, Purchased, Listed, Sold), the date and time of each scan, and the shop name you enter (optional).</p>
 
-            <h3>Scan Data</h3>
-            <ul>
-                <li>Items you scan, including titles, categories, and estimated values</li>
-                <li>Your purchase prices and listing prices</li>
-                <li>Your scan history and status changes (Selected, Rejected, Purchased, Listed, Sold)</li>
-                <li>Dates and times of activity within the App</li>
-            </ul>
+<h3>Location (optional)</h3>
+<p>If you allow location access, the app records the GPS position of each scan and a street/area name (for example "Park Street, Bristol") so you can see which shops you found items in. Location is collected <strong>only while you are using the app</strong>, never in the background. You can refuse or withdraw the permission at any time in your phone's settings; the app works without it. Shops you name are also remembered on your device to suggest them next time.</p>
 
-            <h3>Device Information</h3>
-            <ul>
-                <li>Device type and operating system</li>
-                <li>IP address</li>
-                <li>App version</li>
-                <li>Crash logs and diagnostic data</li>
-            </ul>
+<h3>Photos</h3>
+<p>Photos you take when scanning are sent to OpenAI to identify the items and estimate their value. They are processed only to produce that result and are <strong>not stored on our servers</strong>. A copy may stay on your own device while you review the scan.</p>
 
-            <h2>2. How We Use Your Information</h2>
-            <p>We use the information we collect to:</p>
-            <ul>
-                <li>Provide the App's core functionality (scanning, tracking, listing management)</li>
-                <li>Improve AI accuracy and App performance</li>
-                <li>Send important service notifications</li>
-                <li>Comply with legal obligations</li>
-                <li>Show relevant advertisements to free-tier users</li>
-            </ul>
+<h3>Purchases</h3>
+<p>If you subscribe to SwipeFlipper Pro, Google Play handles the payment. We receive only your subscription status, never your card details.</p>
 
-            <h2>3. Third-Party Services</h2>
-            <p>The App uses the following third-party services, each with their own privacy policies:</p>
-            <div class="service-link"><strong>Google Play Services</strong> — <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></div>
-            <div class="service-link"><strong>Google AdMob</strong> (advertising) — <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">policies.google.com/technologies/ads</a></div>
-            <div class="service-link"><strong>Firebase</strong> (authentication, database, storage) — <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a></div>
-            <div class="service-link"><strong>OpenAI</strong> (image recognition) — <a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">openai.com/policies/privacy-policy</a></div>
+<h3>Device and advertising data</h3>
+<p>On the free tier, Google AdMob shows ads and collects device identifiers (such as the advertising ID), approximate location derived from your IP address, app interactions and diagnostics, for advertising, analytics and fraud prevention. Ads may be personalised.</p>
 
-            <p style="margin-top: 16px;">When you scan an item, the photo is sent to OpenAI's servers for analysis. OpenAI processes this image to identify the item and estimate its value. OpenAI does not use your data to train their public models when accessed via API.</p>
-            <p>We do not sell your personal data. We do not share your data with third parties except as described in this policy.</p>
+<h2>2. How we use your information</h2>
+<ul>
+  <li>To provide the app: identifying items, estimating prices, tracking your items and profits, and showing where and when you scanned them.</li>
+  <li>To manage your account and Pro subscription.</li>
+  <li>To show ads on the free tier.</li>
+  <li>To keep the service secure and comply with the law.</li>
+</ul>
 
-            <h2>4. Data Retention</h2>
-            <ul>
-                <li><strong>Account data:</strong> retained while your account is active, plus 12 months after deletion</li>
-                <li><strong>Scan data and photos:</strong> retained for 24 months unless you delete them earlier</li>
-                <li><strong>Aggregated and anonymised data:</strong> retained indefinitely</li>
-                <li><strong>Data required for legal compliance:</strong> retained as long as required by law</li>
-            </ul>
+<h2>3. Third-party services</h2>
+<p>We use these service providers, who process data on our behalf:</p>
+<ul>
+  <li><strong>Google Firebase</strong>: sign-in and database. <a href="https://firebase.google.com/support/privacy">Firebase privacy</a></li>
+  <li><strong>OpenAI</strong>: identifying items from photos. OpenAI does not use API data to train its models. <a href="https://openai.com/policies/privacy-policy">OpenAI privacy policy</a></li>
+  <li><strong>eBay</strong>: looking up current prices. Only item titles and categories are sent, never personal data.</li>
+  <li><strong>Google AdMob</strong>: advertising on the free tier. <a href="https://policies.google.com/technologies/ads">How Google uses data in ads</a></li>
+  <li><strong>Google Play</strong>: app distribution and subscription billing. <a href="https://policies.google.com/privacy">Google privacy policy</a></li>
+  <li><strong>Your phone's location services</strong> (Google on Android): turning GPS coordinates into a street/area name.</li>
+</ul>
+<p>We do <strong>not</strong> sell your personal data.</p>
 
-            <h2>5. Your Rights (UK GDPR)</h2>
-            <p>You have the right to:</p>
-            <ul>
-                <li>Access the personal data we hold about you</li>
-                <li>Request correction of inaccurate data</li>
-                <li>Request deletion of your data ("right to be forgotten")</li>
-                <li>Object to processing</li>
-                <li>Withdraw consent at any time</li>
-                <li>Lodge a complaint with the ICO (<a href="https://ico.org.uk" target="_blank" rel="noopener">ico.org.uk</a>)</li>
-            </ul>
-            <p>To exercise any of these rights, contact us at <a href="mailto:admin@swipeflipper.co.uk">admin@swipeflipper.co.uk</a>.</p>
+<h2>4. Data retention</h2>
+<ul>
+  <li><strong>Account and scan data, including location:</strong> kept while your account is active. Deleted when you delete an item or your account.</li>
+  <li><strong>Photos:</strong> not stored on our servers.</li>
+  <li><strong>Anonymised, aggregated statistics:</strong> may be kept indefinitely; they cannot identify you.</li>
+  <li><strong>Data we are legally required to keep:</strong> only as long as the law requires.</li>
+</ul>
 
-            <h2>6. Data Deletion</h2>
-            <p>You can delete your account and all associated data at any time by:</p>
-            <ul>
-                <li>Using the "Delete Account" option in the App (if available), or</li>
-                <li>Emailing us at <a href="mailto:admin@swipeflipper.co.uk">admin@swipeflipper.co.uk</a></li>
-            </ul>
-            <p>We will process your request within 30 days. Some data may be retained where required by law.</p>
+<h2>5. Deleting your account</h2>
+<p>In the app, open <strong>Profile → Delete account</strong> and confirm with your password. This immediately and permanently deletes your account, scanned items, listings, saved locations and profile. You can also request deletion by email; see <a href="delete-account.html">Delete your account</a>.</p>
 
-            <h2>7. Children</h2>
-            <p>The App is not intended for children under 13 (or 16 in the EU/UK). We do not knowingly collect data from children. If you believe a child has provided us with personal information, please contact us at <a href="mailto:admin@swipeflipper.co.uk">admin@swipeflipper.co.uk</a> and we will delete it.</p>
+<h2>6. Your rights (UK GDPR)</h2>
+<p>You have the right to access, correct, delete or export your data, to object to processing, and to withdraw consent (for example to location). Contact <a href="mailto:admin@swipeflipper.co.uk">admin@swipeflipper.co.uk</a>. You can also complain to the UK Information Commissioner's Office at <a href="https://ico.org.uk">ico.org.uk</a>.</p>
 
-            <h2>8. International Data Transfers</h2>
-            <p>Your data may be transferred to and processed in countries outside the UK/EEA, including the United States (where our service providers like OpenAI and Google operate). We rely on Standard Contractual Clauses and adequacy decisions to safeguard these transfers.</p>
+<h2>7. Children</h2>
+<p>SwipeFlipper is not intended for children under 13 (under 16 in the UK/EU). If you believe a child has given us data, contact us and we will delete it.</p>
 
-            <h2>9. Security</h2>
-            <p>We implement reasonable technical and organisational measures to protect your data. However, no method of transmission over the internet is 100% secure. We cannot guarantee absolute security.</p>
+<h2>8. International transfers</h2>
+<p>Some providers (such as OpenAI and Google) process data in the United States. These transfers rely on adequacy decisions or Standard Contractual Clauses.</p>
 
-            <h2>10. Data Breach Notification</h2>
-            <p>If a data breach occurs that affects your personal data, we will notify you and the relevant authorities in accordance with applicable law.</p>
+<h2>9. Security</h2>
+<p>Data is encrypted in transit and protected by access rules so only you can read your items. No system is perfectly secure, but we take reasonable measures to protect your data, and will notify you and the authorities of any breach as the law requires.</p>
 
-            <h2>11. California Residents (CCPA/CPRA)</h2>
-            <p>If you are a California resident, you have additional rights including the right to know what data we collect, the right to delete, and the right to opt out of the sale of personal information. We do not sell personal information. Contact <a href="mailto:admin@swipeflipper.co.uk">admin@swipeflipper.co.uk</a> to exercise these rights.</p>
+<h2>10. California residents</h2>
+<p>You have the right to know about and delete your personal information and to opt out of its sale. We do not sell personal information. Contact us to make a request.</p>
 
-            <h2>12. Changes to This Policy</h2>
-            <p>We may update this Privacy Policy from time to time. We will notify you of material changes by posting the updated policy with a new effective date. Continued use of the App after changes constitutes acceptance.</p>
+<h2>11. Changes to this policy</h2>
+<p>We will post any changes here with a new "Last updated" date, and tell you in the app about significant changes.</p>
 
-            <h2>13. Contact Us</h2>
-            <p>
-                <strong>SwipeFlipper</strong><br>
-                Email: <a href="mailto:admin@swipeflipper.co.uk">admin@swipeflipper.co.uk</a><br>
-                Website: <a href="https://swipeflipper.co.uk" target="_blank" rel="noopener">swipeflipper.co.uk</a>
-            </p>
-            <p>If you have questions about this Privacy Policy, please contact us.</p>
-        </div>
-    </div>
+<h2>12. Contact us</h2>
+<p>SwipeFlipper<br>
+Email: <a href="mailto:admin@swipeflipper.co.uk">admin@swipeflipper.co.uk</a><br>
+Website: <a href="https://swipeflipper.co.uk">swipeflipper.co.uk</a></p>
 
-    <footer>
-        &copy; 2026 SwipeFlipper. All rights reserved.
-    </footer>
+<footer>© 2026 SwipeFlipper. All rights reserved.</footer>
+</main>
 </body>
 </html>
